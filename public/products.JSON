@@ -1,0 +1,174 @@
+[
+    {
+        "key": "B002RL8IYK",
+
+        "name": "Johnson's Bedtime lotion and Screen care",
+	"Brand": "Johnson's Baby",
+	"Item Weight" :	"1.58 Pounds",
+        "stock": 36,
+        "star": 3,
+	"price":7,
+        "img": "https://m.media-amazon.com/images/I/61dEfCg9eES._AC_UL320_.jpg"
+    },
+    {
+        "key": "B01LZ2WZGH",
+        
+        "name": "Baby Dove Sensitive Skin Care Baby Wash",
+	"Brand": "Baby Dove",
+	"Item Weight" :	"2.5 Pounds",
+        "stock": 80,
+        "star": 5,
+	"price":8.69,
+        "img": "https://m.media-amazon.com/images/I/71Chx8FDPXL._AC_UL320_.jpg"
+    },
+    {
+        "key": "B01K1IO3QW",
+	"name": "Aveeno Baby Calming Comfort Bath & Lotion Sete",
+	"Brand": "Aveeno Baby",
+	"Item Weight" :	"2.5 Pounds",
+        "stock": 10,
+        "star": 5,
+	"price":8.69,
+        "img": "https://m.media-amazon.com/images/I/81EGYk-b3KL._AC_UL320_.jpg"
+        
+    },
+    {
+        "key": "B01LD4MGY4",
+        "name": "Baby Bum Shampoo & Wash ",
+	"Brand": "Baby Bum",
+	"Item Weight" :	"1Pounds",
+        "stock": 18,
+        "star": 5,
+	"price":9.99,
+        "img": "https://m.media-amazon.com/images/I/61DQQb87OeL._AC_UL320_.jpg"
+    },
+    {
+        "key": "B01M18UZF5",
+
+        "name": "Cetaphil Baby Wash & Shampoo",
+	"Brand": "CETAPHIL",
+	"Item Weight" :	"3Pounds",
+        "stock": 59,
+        "star": 4,
+	"price":26.47,
+        "img": "https://m.media-amazon.com/images/I/81D3ruCQyXS._AC_UL320_.jpg"
+    },
+    {
+        "key": "B01DBGVB7K",
+
+	"name": "Everyone 3-in-1 Kids Soap with lemon flevor",
+	"Brand": "Everyone",
+	"Item Weight" :	"2.8Pounds",
+        "stock": 23,
+        "star": 5,
+	"price":17.74,
+        "img": "https://m.media-amazon.com/images/I/71NHLi7G-TL._AC_UL320_.jpg"
+        
+    },
+    {
+        "key": "B015WXL0C6",
+        
+
+	"name": "Everyone 3-in-1 Kids Soap",
+	"Brand": "Everyone",
+	"Item Weight" :	"2.8Pounds",
+        "stock": 1,
+        "star": 3,
+	"price":7.99,
+        "img": "https://m.media-amazon.com/images/I/712gyaDlFCL._AC_UL320_.jpg"
+
+    },
+    {
+        "key": "B06Y4GZS9C",
+        "name": "Babyganics Foaming Dish & Bottle Soap",
+	"Brand": "Babyganics",
+	"Item Weight" :	"6Pounds",
+        "stock":7 ,
+        "star": 3,
+	"price":17.97,
+        "img": "https://m.media-amazon.com/images/I/61MF2CgaFVL._AC_UL320_.jpg"
+    },
+    {
+        "key": "B06XJJG4PD",
+
+"name": "The Honest Company Truly Calming Lavender Shampoo",
+	"Brand": "HONEST",
+	"Item Weight" :	"1Pounds",
+        "stock":111 ,
+        "star": 4,
+	"price":8.99,
+        "img": "https://m.media-amazon.com/images/I/7125aGw++bL._AC_UL320_.jpg"
+        
+    },
+    {
+        "key": "B01NBE6Y5D",
+        "name": "Aveeno Baby Essential Daily Care Baby & Mommy Gift Set",
+	"Brand": "Aveeno",
+	"Item Weight" :	"5Pounds",
+        "stock":80 ,
+        "star": 3.5,
+	"price":28.86,
+        "img": "https://m.media-amazon.com/images/I/81iCpX5qUaL._AC_UL320_.jpg"
+       
+        
+    },
+    {
+        "key": "B01J42JPJG",
+        "name": "A Nova Baby Swing for Infants - Motorized Portable Swing",
+        "Brand": "Nova",
+        "Item Weight" :	"100Pounds",
+            "stock":13 ,
+            "star": 4.5,
+        "price":150,
+            "img": "https://m.media-amazon.com/images/I/61FmVfLV5sL._AC_UL320_.jpg"
+        
+    },
+    {
+        "key": "B01F4ZG68A",
+        "name": "Baby Wipes, Pampers Sensitive Water Based Baby Diaper Wipe",
+        "Brand": "Pampers",
+        "Item Weight" :	"5 Pounds",
+            "stock":13 ,
+            "star": 4.5,
+        "price":17.99,
+            "img": "https://m.media-amazon.com/images/I/81yGed5SFNL._AC_UL320_.jpg"
+        
+    },
+    {
+        "key": "B06Y5PY61J",
+        "name": "Shea Moisture Wash Shampoo And Lotion Set | 100% Virgin Coconut Oil ",
+        "Brand": "Pampers",
+        "Item Weight" :	"3 Pounds",
+            "stock":289 ,
+            "star": 5,
+        "price":19.99,
+            "img": "https://m.media-amazon.com/images/I/614PbowwGeL._AC_UL320_.jpg"
+    },
+    {
+        "key": "B0182YJ4V6",
+
+        "name": "Regent Baby Product Corp Mickey Mouse Bib, White (3 Pack) ",
+        "Brand": "Disney",
+        "Item Weight" :	"3 Pounds",
+            "stock":147 ,
+            "star": 3,
+        "price":12.37,
+            "img": "https://m.media-amazon.com/images/I/41zklDIUv8L._AC_UL320_.jpg"
+       
+    },
+    {
+        "key": "B01GL7EB50",
+
+        "name": "Burt's Bees Baby Getting Started Gift Set, 5 Trial Size Baby Skin Care Products, ",
+        "Brand": "Burt's Bees Baby",
+        "Item Weight" :	"10 Pounds",
+            "stock":55 ,
+            "star": 4,
+        "price":12.99,
+            "img": "https://m.media-amazon.com/images/I/81BJiPtPn-L._AC_UL320_.jpg"
+    }
+    
+    
+    
+
+]

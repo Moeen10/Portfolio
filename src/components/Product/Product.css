@@ -1,0 +1,39 @@
+.card{
+    height: 460px;
+    width: 260px;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+.img_size{
+    height: 200px;
+   
+}
+
+.img_size img{
+    max-height:100%;
+    max-width:100%;
+}
+
+.Content{
+    margin-top: 20px;
+    height: 180px;
+    text-align: start;
+    padding-left:15px ;
+}
+
+span{
+    font-weight: 900;
+}
+
+.button{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Star{
+    display: flex;
+    
+}
+.Star h6{
+    margin: 5px 5px 5px 0px;
+}
