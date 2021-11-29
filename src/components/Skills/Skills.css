@@ -1,0 +1,157 @@
+.body{
+    margin: 5px;
+}
+  
+  .contain {
+    position : relative;
+    width : 300px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-wrap: wrap;
+    padding : 30px;  
+  }
+  
+  .contain .card {
+    position: relative;
+    max-width : 300px;
+    height : 200px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .contain .card:hover {
+    height : 280px;    
+  }
+  
+  
+  .contain .card .image {
+    position : relative;
+    width : 180px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .contain .card .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .contain .card .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .contain .card:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+  @media only screen and (min-width: 0px ) and (max-width:667px){
+  
+    .body{
+        margin-top: 5px;
+    }
+      
+      .contain {
+        position : relative;
+        width : 280px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        flex-wrap: wrap;
+        padding : 0px;  
+      }
+      
+      .contain .card {
+        position: relative;
+        max-width : 280px;
+        height : 205px;  
+        background-color : rgb(255, 255, 255);
+        margin : 30px 0px;
+        padding : 20px 15px;
+        
+        display : flex;
+        flex-direction : column;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+        transition : 0.3s ease-in-out;
+        border-radius : 15px;
+      }
+      .contain .card:hover {
+        height : 320px;    
+      }
+      
+      
+      .contain .card .image {
+        position : relative;
+        width : 250px;
+        height : 420px;
+        
+        top : -40%;
+        left: 8px;
+        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+        z-index : 1;
+      }
+      
+      .contain .card .image img {
+        max-width : 100%;
+        border-radius : 15px;
+      }
+      
+      .contain .card .content {
+        position : relative;
+        top : -140px;
+        padding : 10px 15px;
+        color : #111;
+        text-align : center;
+        
+        visibility : hidden;
+        opacity : 0;
+        transition : 0.3s ease-in-out;
+          
+      }
+      
+      .contain .card:hover .content {
+         margin-top : 30px;
+         visibility : visible;
+         opacity : 1;
+         transition-delay: 0.2s;
+        
+      }
+    
+  }
+  
+  

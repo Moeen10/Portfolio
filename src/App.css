@@ -1,6 +1,30 @@
 .App {
   text-align: center;
+  
 }
+.social{
+ text-align:  center;
+}
+
+.bld{
+  color: rgb(130, 130, 236);
+}
+.bly{
+  color:rgb(130, 154, 226)
+}
+
+.font{
+  font-size: 2cm;
+}
+.mu{
+  margin-top: 15%;
+  overflow: hidden;
+  right: 0;
+  height: 100h;  
+  width: 100%; 
+  
+}
+
 
 .App-logo {
   height: 40vmin;
