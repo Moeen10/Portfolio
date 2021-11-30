@@ -7,49 +7,23 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect,useRef,useState } from 'react';
 import { Col, Container,Row } from 'react-bootstrap';
-// import Particles from 'react-particles-js';
-import useTypewriter from "react-typewriter-hook";
 // import Particle from './components/Particle/Particle';
-// import {Button} from '@mui/material';
-import MyPDF from './Files/myResume.pdf';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Home from './components/Home/Home';
 
 
-const MagicOcean = [
-  "MERN stack developer",
-];
-let index = 0;
+
 function App() {
-  const [magicName, setMagicName] = useState("Hello Viewer...");
-  const intervalRef = useRef({});
-  const name = useTypewriter(magicName);
-  useEffect(
-    () => {
-      intervalRef.current = setInterval(() => {
-        // index = index + 1 > 2 ? 0 : ++index + 1;
-        index = index > 0 ? 0 : ++index;
-        setMagicName(MagicOcean[index]);
-      }, 2000);
-      return function clear() {
-        clearInterval(intervalRef.current);
-      };
-    },
-    [magicName]
-  );
+ 
 
-  
-
-useEffect(()=>{
-  AOS.init({duration:2000});
-},[])
   return (
     <div>
-
+<BrowserRouter>
       <NavBar></NavBar>
 
-
+<Switch>
 
 <Container>
   <Row>
@@ -57,57 +31,37 @@ useEffect(()=>{
  
   
 
-  
   <Col sm={8} xs={12}>
-   
-    <div data-aos="fade-up"
-     data-aos-duration="3000">
-         <div className="App">
-      <h3>Hi There !</h3>
-   
-      <h2>I'm <span className="bld">T.M Moeen uddin</span></h2>
-      <h5 className="cursor  ani">I am<span  className="bly"> {name}</span></h5>
-      <br />
-     
-    </div> 
-    <div>
-    <h6>An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a professional web designer and developer.No project is too big or too small for me. Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, Jquery, React, Node JS, Express JS, Mongo DB. Resourceful Web Developer lends hands-on approach to customizing web presence strategy. More than 2 years of experience
-         working closely with Web Development to outline organizational needs and translate them into extensive lines of code that support objectives. Adept creation of scripts using HTML, CSS and JavaScript to convey unique branding and promote sales and marketing opportunities. Specialty supporting intricate backend needs and lending assistance throughout webpage lifecycle.</h6>
-    </div>
-    <br />
-    </div>
 
-    <div data-aos="fade-right">
-    <a href={MyPDF} download="Moeen'sResume.pdf"><button type="button" class="btn btn-primary">Resume</button>
-    </a>
-    </div>
+  <Route path="/">
+            <Home id="home" />
+          </Route>
+   
     <br />
 <br />
 <br />
 <br />
+<Route path="/">
 
-<About ></About>
+<About id="about" ></About>
+
 <br />
 <br />
 
 <SocialMedia className="social"/>
-<br />
-<br />
-<br />
 
- <Skills/>
+</Route>
 
+<br />
+<br />
+<br />
+<Route path="/">
+ <Skills id="skills"/>
+</Route>
 <br />
 <br />
 <br />
 To be continue.....
-
-
-
-
-
-
-
 
 <br />
 <br />
@@ -125,7 +79,8 @@ To be continue.....
     </Row>
   
 </Container> 
-
+</Switch>
+</BrowserRouter>
     </div>
   );
 }

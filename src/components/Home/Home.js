@@ -1,18 +1,17 @@
 import React from 'react';
+import useTypewriter from "react-typewriter-hook";
+import { useEffect,useRef,useState } from 'react';
+import AOS from 'aos';
+import MyPDF from '../../Files/myResume.pdf';
 
 const MagicOcean = [
     "MERN stack developer",
   ];
   let index = 0;
 
-   
-    
-  
-  useEffect(()=>{
-    AOS.init({duration:2000});
-  },[])
 
 const Home = () => {
+  
     const [magicName, setMagicName] = useState("Hello Viewer...");
     const intervalRef = useRef({});
     const name = useTypewriter(magicName);
@@ -29,32 +28,37 @@ const Home = () => {
       },
       [magicName]
     );
-  
+    useEffect(()=>{
+        AOS.init({duration:2000});
+      },[])
     return (
-        <>
-        <div data-aos="fade-up"
-        data-aos-duration="3000">
-            <div className="App">
-         <h3>Hi There !</h3>
-      
-         <h2>I'm <span className="bld">T.M Moeen uddin</span></h2>
-         <h5 className="cursor  ani">I am<span  className="bly"> {name}</span></h5>
-         <br />
-        
-       </div> 
-       <div>
-       <h6>An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a professional web designer and developer.No project is too big or too small for me. Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, Jquery, React, Node JS, Express JS, Mongo DB. Resourceful Web Developer lends hands-on approach to customizing web presence strategy. More than 2 years of experience
-            working closely with Web Development to outline organizational needs and translate them into extensive lines of code that support objectives. Adept creation of scripts using HTML, CSS and JavaScript to convey unique branding and promote sales and marketing opportunities. Specialty supporting intricate backend needs and lending assistance throughout webpage lifecycle.</h6>
-       </div>
-       <br />
-       </div>
+        <div id="home">
+         <div data-aos="fade-up"
+     data-aos-duration="3000">
+         <div className="App">
+             <br />
+      <h3>Hi There !</h3>
    
-       <div data-aos="fade-right">
-       <a href={MyPDF} download="Moeen'sResume.pdf"><button type="button" class="btn btn-primary">Resume</button>
-       </a>
-       </div>
-       <br />
-       </>
+      <h2>I'm <span className="bld">T.M Moeen uddin</span></h2>
+      <h5 className="cursor  ani">I am<span  className="bly"> {name}</span></h5>
+      <br />
+      <br />
+     
+     
+    </div> 
+    <div>
+    <h6>An aspiring MERN Stack Developer.I lost myself when I dive into the codes. I am a professional developer.No project is too big or too small for me. Recently I have completed react and node js. I am expertise in Html5, Css3, Javascript, Bootstrap, React, Node JS, Express JS, Mongo DB. Resourceful Web Developer lends hands-on approach to customizing web presence strategy. More than 6 months of experience
+      .I also like to do problem- solving. I want to be a successful web developer. I genuinely love to learn and always looking for improvement.</h6>
+    </div>
+    <br />
+    <br />
+    </div>
+
+    <div data-aos="fade-right">
+    <a href={MyPDF} download="Moeen'sResume.pdf"><button type="button" class="btn btn-primary">Resume</button>
+    </a>
+    </div>
+    </div>
     );
 };
 

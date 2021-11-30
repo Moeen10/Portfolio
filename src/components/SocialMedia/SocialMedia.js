@@ -3,9 +3,10 @@ import {AnimatedSocialIcon} from 'react-animated-social-icons';
 import './Social.css'
 const SocialMedia = () => {
     return (
-        
+     <>   
             
-<div className="d-flex justify-content-center" >
+<div id="social"  className="d-flex justify-content-center" >
+
     <div className="item-wrapper"  data-aos="flip-up">
         <AnimatedSocialIcon 
             brandName="github"
@@ -18,9 +19,9 @@ const SocialMedia = () => {
 
     <div className="item-wrapper" data-aos="flip-left">
         <AnimatedSocialIcon 
-            brandName="instagram"
+            brandName="linkedin"
             width="2em" 
-            url="https://github.com/meko-deng/react-animated-social-icons"
+            url="https://linkedin.com/in/t-m-moeen-uddin-a09703184/"
             defaultColor="#7BF1E3" 
             hoverColor="#7BF1E3" 
             animation="bounce" />
@@ -37,7 +38,7 @@ const SocialMedia = () => {
     </div>
 
 </div>
-        
+     </>   
     );
 };
 
