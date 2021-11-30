@@ -84,6 +84,7 @@ const NavBar = () => {
                         <Nav.Link as={HashLink} to="#home" aria-current="page">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="#about">About</Nav.Link>
                         <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
+                        <Nav.Link as={HashLink} to="#contact">Contact</Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

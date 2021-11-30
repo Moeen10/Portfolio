@@ -12,6 +12,7 @@ import SocialMedia from './components/SocialMedia/SocialMedia';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Home from './components/Home/Home';
+import Email from './components/Email/Email';
 
 
 
@@ -61,14 +62,12 @@ function App() {
 <br />
 <br />
 <br />
-To be continue.....
+<Route path="/">
+<Email/>
+</Route>
+<br />
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
 
 
