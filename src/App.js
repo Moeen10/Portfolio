@@ -44,7 +44,7 @@ function App() {
 <br />
 <Route path="/">
 
-<About id="about" ></About>
+<About ></About>
 
 <br />
 <br />

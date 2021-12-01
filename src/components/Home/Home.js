@@ -6,22 +6,24 @@ import MyPDF from '../../Files/myResume.pdf';
 
 const MagicOcean = [
     "MERN stack developer",
+    "React Devoloper",
+    "Front-end Developer",
   ];
   let index = 0;
 
 
 const Home = () => {
   
-    const [magicName, setMagicName] = useState("Hello Viewer...");
+    const [magicName, setMagicName] = useState("MERN stack developer");
     const intervalRef = useRef({});
     const name = useTypewriter(magicName);
     useEffect(
       () => {
         intervalRef.current = setInterval(() => {
           // index = index + 1 > 2 ? 0 : ++index + 1;
-          index = index > 0 ? 0 : ++index;
+          index = index > 1 ? 0 : ++index;
           setMagicName(MagicOcean[index]);
-        }, 2000);
+        }, 4000);
         return function clear() {
           clearInterval(intervalRef.current);
         };

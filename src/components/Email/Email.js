@@ -19,7 +19,7 @@ const Email = () => {
   };
 
   return (
-   <div>
+   <div id="contact">
              <Container>
             <Row>
                 <Col sx={12} sm={12}>
@@ -46,7 +46,6 @@ const Email = () => {
         </Container>
    
     </div>
-    
 
     
   );
