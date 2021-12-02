@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
+import {  Col, Container,  Row } from 'react-bootstrap';
 
 import './Email.css'
 const Email = () => {
@@ -23,11 +23,24 @@ const Email = () => {
              <Container>
             <Row>
                 <Col sx={12} sm={12}>
-                    <div data-aos="fade-down">
-                <header>Contact Form</header>
+                <div data-aos="flip-down" className="mainAbout">
+            <p class="fs-1"  ><span className="colo">Con</span>tact</p>
 
-                </div>
+            </div>
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+       <hr
+        style={{
+            color:" white",
+            backgroundColor: "white",
+            height: 5
+        }}
+    /> 
+</div>
                 <br />
+                <br />
+                
                 
                 
 <div data-aos="flip-left">
