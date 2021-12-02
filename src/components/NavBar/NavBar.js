@@ -71,6 +71,7 @@
 
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './NavBar.css'
 const NavBar = () => {
@@ -79,13 +80,14 @@ const NavBar = () => {
       <Navbar  fixed="top"  collapseOnSelect expand="lg"  >
                 <Container>
                 
-                    <Navbar.Toggle className="bg-danger" />
+                    <Navbar.Toggle className="bg-white" />
                     <Navbar.Collapse className="justify-content-end bac">
-                        <Nav.Link as={HashLink} to="#home" aria-current="page">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="#about">About</Nav.Link>
-                        <Nav.Link as={HashLink} to="#skills">Skills</Nav.Link>
-                        <Nav.Link as={HashLink} to="#project">Projects</Nav.Link>
-                        <Nav.Link as={HashLink} to="#contact">Contact</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#home" aria-current="page">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#skills">Skills</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#project">Projects</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#contact">Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

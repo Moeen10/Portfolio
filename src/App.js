@@ -14,6 +14,10 @@ import Skills from './components/Skills/Skills';
 import Home from './components/Home/Home';
 import Email from './components/Email/Email';
 import Projects from './components/Projects/Projects';
+import Car from './components/Projects/Car';
+import Tourist from './components/Projects/Tourist';
+import Dental from './components/Projects/Dental';
+import Blogs from './components/Blogs/Blogs';
 
 
 
@@ -26,7 +30,19 @@ function App() {
       <NavBar></NavBar>
 
 <Switch>
-
+<Route exact path="/blogs">
+ <Blogs></Blogs>
+</Route>
+<Route exact path="/tourist">
+ <Tourist></Tourist>
+</Route>
+<Route exact path="/car_shop">
+ <Car/>
+</Route>
+<Route exact path="/dental">
+ <Dental></Dental>
+</Route>
+ 
 <Container>
   <Row>
   <Col sm={4}  xs={12} ><MyPic/> </Col>
@@ -34,7 +50,7 @@ function App() {
   
 
   <Col sm={8} xs={12}>
-
+<br />
   <Route path="/">
             <Home id="home" />
           </Route>
@@ -43,7 +59,7 @@ function App() {
 <br />
 <br />
 <br />
-<Route path="/">
+<Route path="/home">
 
 <About ></About>
 
@@ -57,19 +73,19 @@ function App() {
 <br />
 <br />
 <br />
-<Route path="/">
+<Route path="/home">
  <Skills id="skills"/>
 </Route>
 <br />
 <br />
 <br />
-<Route path="/">
+<Route path="/home">
 <Projects/>
 </Route>
 <br />
 <br />
 <br />
-<Route path="/">
+<Route path="/home">
 <Email/>
 </Route>
 <br />
@@ -85,6 +101,8 @@ function App() {
     </Row>
   
 </Container> 
+
+
 </Switch>
 </BrowserRouter>
     </div>

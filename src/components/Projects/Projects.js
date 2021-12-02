@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Project.css"
 import { Col, Container,Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,Route } from 'react-router-dom';
 import car from "../../Files/rsz_carw1.png"
 import tor from "../../Files/rsz_11tour.png"
 import dental from "../../Files/dental.PNG"
@@ -51,7 +51,9 @@ const Projects = () => {
       </div>
       
      <br />
-      <a className="click" href="#">Visit</a>
+     <Route path="/">
+     <Link to="/car_shop"><a className="click">Visit</a></Link>
+</Route>
     </div>
   </div>
 </div>
@@ -76,7 +78,7 @@ const Projects = () => {
         
       </div>
      <br />
-      <a className="click" href="#">Buy Now</a>
+     <Link to="/tourist"><a className="click">Visit</a></Link> 
     </div>
   </div>
 </div>
@@ -103,7 +105,7 @@ const Projects = () => {
       </div>
       
      <br />
-      <Link className="click" href="#">Visit</Link>
+     <Link to="/dental"><a className="click">Visit</a></Link> 
     </div>
   </div>
 </div>
