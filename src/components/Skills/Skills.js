@@ -31,7 +31,7 @@ const Skills = () => {
         <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="" />
       </div>
       <div class = "content">
-      <h1>HTML</h1>
+      <h1 style={{color:"black"}}>HTML</h1>
       </div>
     </div>    
   </div>
@@ -47,7 +47,7 @@ const Skills = () => {
         <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="" />
       </div>
       <div class = "content">
-      <h1>CSS</h1>
+      <h1 style={{color:"black"}}>CSS</h1>
       </div>
     </div>    
   </div>
@@ -63,13 +63,156 @@ const Skills = () => {
         <img src="https://icon-library.com/images/javascript-icon/javascript-icon-0.jpg" alt="" />
       </div>
       <div class = "content">
-        <h1>Java Script</h1>
+        <h1 style={{color:"black"}}>Java Script</h1>
       </div>
     </div>    
   </div>
 </div>
          </Col>       
             </Row>
+
+
+            <Row>
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>REACT</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Node JS</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>C++</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+
+            </Row>
+
+
+
+            <Row>
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Mongo DB</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Bootstrap</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Metarial UI</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+
+            </Row>
+
+
+            <Row>
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Tailwind</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Github</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+            <Col xs={12} sm={4} >
+                <div className="body"  data-aos="flip-up">
+  <div class = "contain">
+    <div class = "card">
+      <div class = "image">
+        <img src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png" alt="" />
+      </div>
+      <div class = "content">
+      <h1 style={{color:"black"}}>Firebase</h1>
+      </div>
+    </div>    
+  </div>
+</div>
+         </Col> 
+
+            </Row>
+
         </Container>
         </div>
        
@@ -77,27 +220,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-// <div className="fixed">
-// <div class="card1">
-
-// <img src="http://www.pngmart.com/files/5/Pyramids-PNG-HD.png" alt="" />
-// <h3>Pyramids</h3>
-// <p>The Egyptian pyramids are ancient pyramid-shaped masonry structures located in Egypt. As of November 2008, sources cite either 118 or 138 as the number of identified Egyptian pyramids.</p>
-// </div>
-
-// <div class="card2">
-// <img src="https://wallazee.global.ssl.fastly.net/images/dynamic/items/383-1024.png" alt="" />
-// <h3>Statue of Liberty</h3>
-// <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.</p>
-// </div>
-
-// <div class="card3">
-// <img src="http://pluspng.com/img-png/download-taj-mahal-png-images-transparent-gallery-advertisement-1185.png" alt="" />
-// <h3>Taj Mahal</h3>
-// <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor.</p>
-// </div>
-// <div class="footer">
-// </div>
-// </div>

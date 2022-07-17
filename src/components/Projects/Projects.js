@@ -4,6 +4,7 @@ import { Col, Container,Row } from 'react-bootstrap';
 import { Link,Route } from 'react-router-dom';
 import car from "../../Files/rsz_carw1.png"
 import tor from "../../Files/rsz_11tour.png"
+import tem from "../../Files/tem1.PNG"
 import dental from "../../Files/dental.PNG"
 const Projects = () => {
     return (
@@ -109,6 +110,29 @@ const Projects = () => {
     </div>
   </div>
 </div>
+<br />
+<br />
+        </Col>
+        <Col sx={12} sm={6}  >
+        <div class="project"  data-aos="flip-right">
+  <div class="card">
+    <div class="imgBx">
+      <img height="180px" src={tem} ></img>
+    </div>
+    <div class="contentBx">
+      <h2>Temperature</h2>
+      <br />
+      <div class="size">
+       
+     <span><a href=" https://temperature-site.netlify.app/" target="_blank">Live site </a> </span>  
+    <span><a href=" https://github.com/Moeen10/Temperature" target="_blank">Site Code</a> </span>          
+      </div>
+     <br />
+     <Link to="/temperature"><a className="click">Visit</a></Link> 
+    </div>
+  </div>
+</div>
+<br />
 <br />
 <br />
         </Col>

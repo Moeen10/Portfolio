@@ -18,6 +18,7 @@ import Car from './components/Projects/Car';
 import Tourist from './components/Projects/Tourist';
 import Dental from './components/Projects/Dental';
 import Blogs from './components/Blogs/Blogs';
+import Temperature from './components/Projects/Temperature';
 
 
 
@@ -35,6 +36,9 @@ function App() {
 </Route>
 <Route exact path="/tourist">
  <Tourist></Tourist>
+</Route>
+<Route exact path="/temperature">
+ <Temperature></Temperature>
 </Route>
 <Route exact path="/car_shop">
  <Car/>

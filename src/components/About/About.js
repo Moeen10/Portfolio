@@ -23,7 +23,7 @@ const About = () => {
 <br />
 <div data-aos="zoom-in">
         Name : T.M Moeen Uddin <br />
-        Qualification : Department Of Software Engineering (3rd Year)<br />
+        Qualification : Department Of Software Engineering (4th Year)<br />
         Post : Jr. MERN Stack Developer<br />
         Language : Bangla,English,Hindi(conversationable) <br />
 </div>
